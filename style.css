@@ -66,6 +66,10 @@ aside {
   margin: 40px;
 }
 
+.category {
+  margin-bottom: 16px;
+}
+
 .fact-cards {
   background-color: #44403c;
   border-radius: 10px;
@@ -118,7 +122,6 @@ ul {
 }
 
 /* button styling */
-
 .btn {
   font-family: "Coiny", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -130,7 +133,24 @@ ul {
   color: inherit;
 }
 
-.btn-large{
-    font-size: 20px;
-    padding: 20px 32px 17px;
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+  transition: .3s;
+}
+
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px 17px;
+}
+
+.btn-all-categories {
+  margin-bottom: 16px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.btn-category {
+  width: 100%;
+  background-image: none;
+  border-radius: 30px;
 }
