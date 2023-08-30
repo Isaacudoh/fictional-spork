@@ -101,6 +101,26 @@ aside {
 
 .vote-buttons {
   margin-left: auto;
+  flex-shrink: 0; /*Does not allow flex item to skrink*/
+  display: flex;
+  gap: 8px;
+}
+
+.vote-buttons button:hover {
+  background-color: #292524;
+  transition: .3s;
+}
+
+.vote-buttons button {
+  border: none;
+  background-color: #78716c;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 100px;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 ul {
@@ -139,7 +159,7 @@ ul {
 
 .btn:hover {
   transform: scale(110%) rotate(-2deg);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn-large {

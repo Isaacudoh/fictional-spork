@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -15,74 +15,101 @@
   </head>
   <body>
     <div class="container">
-    <header class="header">
-      <div class="logo">
-        <img src="Logo.png" height="50" width="" alt="logo" />
-        <h1>Support System</h1>
-      </div>
-      <button class="btn btn-large">NEW TICKET</button>
-    </header>
+      <header class="header">
+        <div class="logo">
+          <img src="Logo.png" height="50" width="" alt="logo" />
+          <h1>Support System</h1>
+        </div>
+        <button class="btn btn-large">NEW TICKET</button>
+      </header>
 
-    <form class="fact-form">
-      <input type="text" name="" id="" placeholder="Start typing..." /><span
-        >200</span
-      >
-      <input type="text" placeholder="Start typing..." />
-      <select name="" id="">
-        <option value="">Choose category</option>
-        <option value="Technology">Technology</option>
-        <option value="Science">Science</option>
-        <option value="Finance">Finance</option>
-      </select>
-      <button class="btn btn-large">Post</button>
-    </form>
+      <form class="fact-form">
+        <input type="text" name="" id="" placeholder="Start typing..." /><span
+          >200</span
+        >
+        <input type="text" placeholder="Start typing..." />
+        <select name="" id="">
+          <option value="">Choose category</option>
+          <option value="Technology">Technology</option>
+          <option value="Science">Science</option>
+          <option value="Finance">Finance</option>
+        </select>
+        <button class="btn btn-large">Post</button>
+      </form>
 
-    <main class="main">
-      <aside>
-        <ul>
-          <li class="category"><button class="btn btn-all-categories">All</button></li>
-          <li class="category"><button class="btn btn-category" style="background-color: #3b82f6">Technology</button></li>
-          <li class="category"><button class="btn btn-category"style="background-color: #16a34a">Science</button></li>
-          <li class="category"><button class="btn btn-category" style="background-color: #ef444e;">Finance</button></li>
-        </ul>
-      </aside>
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="category">
+              <button class="btn btn-all-categories">All</button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-category"
+                style="background-color: #ef444e"
+              >
+                Finance
+              </button>
+            </li>
+          </ul>
+        </aside>
 
-      <section>
-        <ul>
-          <li class="fact-cards">
-            <p class="fact">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              harum beatae perspiciatis tempore quas illo?
-              <a class="source" href="http://www.yahoo.com" target="_blank">(Source)</a>
-            </p>
-            <span class="tag" style="background-color: #3b82f6"
-              >#technology#</span
-            >
-            <div class="vote-buttons">
-              <button><strong>24</strong>👍</button
-              ><button><strong>9</strong>🤯</button
-              ><button><strong>4</strong>⛔️</button>
-            </div>
-          </li>
+        <section>
+          <ul>
+            <li class="fact-cards">
+              <p class="fact">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                harum beatae perspiciatis tempore quas illo?
+                <a class="source" href="http://www.yahoo.com" target="_blank"
+                  >(Source)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #3b82f6"
+                >#technology#</span
+              >
+              <div class="vote-buttons">
+                <button>24 👍</button><button>9 🤯</button
+                ><button>4 ⛔️</button>
+              </div>
+            </li>
 
-          <li class="fact-cards">
-            <p class="fact">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              officiis ducimus nisi quisquam soluta quasi perferendis incidunt,
-              nam deleniti commodi delectus minima, optio expedita quas
-              consequuntur sequi necessitatibus aut.
-              <a class="source" href="http://www.yahoo.com" target="_blank">(Source)</a>
-            </p>
-            <span class="tag" style="background-color: #eab308">#Society#</span>
-            <div class="vote-buttons">
-              <button><strong>11</strong>👍</button
-              ><button><strong>2</strong>🤯</button
-              ><button><strong>0</strong>⛔️</button>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
+            <li class="fact-cards">
+              <p class="fact">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                officiis ducimus nisi quisquam soluta quasi perferendis
+                incidunt, nam deleniti commodi delectus minima, optio expedita
+                quas consequuntur sequi necessitatibus aut.
+                <a class="source" href="http://www.yahoo.com" target="_blank"
+                  >(Source)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #eab308"
+                >#Society#</span
+              >
+              <div class="vote-buttons">
+                <button>11 👍</button><button>2 🤯</button
+                ><button>0 ⛔️</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
