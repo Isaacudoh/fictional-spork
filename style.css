@@ -43,9 +43,14 @@ body {
   background-color: #44403c;
   margin: 40px;
   padding: 40px;
+  /* margin-bottom: 40px;
+  padding: 16px 32px; <-- Breaks container */
   border-radius: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
 
 .main {
   display: grid;
@@ -175,4 +180,31 @@ ul {
 .btn-category {
   width: 100%;
   background-image: none;
+}
+
+.fact-form input,
+.fact-form select{
+  background-color: #78716c;
+  width: 250px;
+  overflow: hidden;
+  border: none;
+  border-radius: 100px;
+  padding: 16px;
+  font-size: 18px;
+  font-family: inherit;
+  color: inherit;
+}
+
+.fact-form input::placeholder{
+    color: #a8a29e;
+}
+
+.fact-form input:first-child{
+    flex-grow: 1;
+}
+
+.fact-form span {
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
 }
