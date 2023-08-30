@@ -12,6 +12,20 @@ body {
 
 .header{
     margin: 40px;
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    /* flex-box */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* End flexboc */
+
 }
 
 .fact-form {
@@ -26,6 +40,9 @@ h1 {
   font-size: 42px;
   text-transform: uppercase;
   font-family: "Coiny", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  margin-left: 30px;
+  margin-top: 5px;
 }
 
 aside{
