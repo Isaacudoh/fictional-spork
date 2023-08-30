@@ -95,7 +95,8 @@ aside {
   padding-top: 3px;
   padding-right: 10px;
   padding-left: 10px;
-  border-radius: 30px;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 .vote-buttons {
@@ -120,6 +121,7 @@ ul {
 .source:active {
   color: #3b82f6;
 }
+/* end link states */
 
 /* button styling */
 .btn {
@@ -131,6 +133,8 @@ ul {
   background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
   border: none;
   color: inherit;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -146,11 +150,9 @@ ul {
 .btn-all-categories {
   margin-bottom: 16px;
   width: 100%;
-  border-radius: 30px;
 }
 
 .btn-category {
   width: 100%;
   background-image: none;
-  border-radius: 30px;
 }
