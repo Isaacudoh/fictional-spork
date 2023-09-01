@@ -11,32 +11,32 @@ btn.addEventListener("click", function () {
   }
 });
 
-let voteInteresting = 23;
-let votesMindblowing = 5;
-const text = "Lisbon is the captital of Portugal";
+// let voteInteresting = 23;
+// let votesMindblowing = 5;
+// const text = "Lisbon is the captital of Portugal";
 
-voteInteresting = voteInteresting + 1;
-voteInteresting++;
-console.log(voteInteresting);
+// voteInteresting = voteInteresting + 1;
+// voteInteresting++;
+// console.log(voteInteresting);
 
-let totalUpvotes = voteInteresting + votesMindblowing;
-console.log("Upvotes:", totalUpvotes);
+// let totalUpvotes = voteInteresting + votesMindblowing;
+// console.log("Upvotes:", totalUpvotes);
 
-let voteFalse = 4;
-const isCorrect = voteFalse < totalUpvotes;
-console.log(isCorrect);
+// let voteFalse = 4;
+// const isCorrect = voteFalse < totalUpvotes;
+// console.log(isCorrect);
 
-console.log(parseInt("24.5333ccc"));
+// console.log(parseInt("24.5333ccc"));
 
-function calcFactAge(year) {
-  const currentYear = new Date().getFullYear();
-  // 2022 - 2015
-  const age = currentYear - year;
-  return age;
-}
+// function calcFactAge(year) {
+//   const currentYear = new Date().getFullYear();
+//   // 2022 - 2015
+//   const age = currentYear - year;
+//   return age;
+// }
 
-const age1 = calcFactAge(2015);
-console.log(age1);
-console.log(calcFactAge(2020));
-console.log(calcFactAge(1991));
+// const age1 = calcFactAge(2015);
+// console.log(age1);
+// console.log(calcFactAge(2020));
+// console.log(calcFactAge(1991));
 
