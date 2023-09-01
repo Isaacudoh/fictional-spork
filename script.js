@@ -10,3 +10,14 @@ btn.addEventListener("click", function () {
     btn.textContent = "New Ticket";
   }
 });
+
+let voteInteresting = 23;
+let votesMindblowing = 5;
+const text = "Lisbon is the captital of Portugal";
+
+voteInteresting = voteInteresting + 1;
+voteInteresting++;
+console.log(voteInteresting);
+
+let totalUpvotes = voteInteresting + votesMindblowing;
+console.log(totalUpvotes);
