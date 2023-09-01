@@ -29,7 +29,7 @@ console.log(isCorrect);
 console.log(parseInt("24.5333ccc"));
 
 function calcFactAge(year) {
-  const currentYear = 2022;
+  const currentYear = new Date().getFullYear();
   // 2022 - 2015
   const age = currentYear - year;
   return age;
@@ -37,3 +37,6 @@ function calcFactAge(year) {
 
 const age1 = calcFactAge(2015);
 console.log(age1);
+console.log(calcFactAge(2020));
+console.log(calcFactAge(1991));
+
