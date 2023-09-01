@@ -20,4 +20,20 @@ voteInteresting++;
 console.log(voteInteresting);
 
 let totalUpvotes = voteInteresting + votesMindblowing;
-console.log(totalUpvotes);
+console.log("Upvotes:", totalUpvotes);
+
+let voteFalse = 4;
+const isCorrect = voteFalse < totalUpvotes;
+console.log(isCorrect);
+
+console.log(parseInt("24.5333ccc"));
+
+function calcFactAge(year) {
+  const currentYear = 2022;
+  // 2022 - 2015
+  const age = currentYear - year;
+  return age;
+}
+
+const age1 = calcFactAge(2015);
+console.log(age1);
